@@ -1,0 +1,17 @@
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/laturradb
+    password: Gabriele.07
+    username: root
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+
+server:
+  url: http://localhost
+  port: 9091
